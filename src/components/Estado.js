@@ -25,7 +25,7 @@ export default class Estado extends Component {
   render() {
     return (
       <div>
-        <h2>El estado:</h2>
+        <h2>CLASE 6 - El estado:</h2>
         <p>{this.state.contador}</p>
         <EstadoAHijo contadorHijo={this.state.contador} />
       </div>

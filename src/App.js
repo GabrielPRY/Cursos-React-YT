@@ -6,6 +6,9 @@ import Propiedades from "./components/Propiedades";
 import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElementos from "./components/RendereizadoElementos";
+import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos";
+import Padre from "./components/ComunicacionComponentes";
+import CicloVida from "./components/CicloVida";
 
 function App() {
   return (
@@ -26,7 +29,7 @@ function App() {
           </a>
         </section>
         <section>
-          <Componente msg="Hola soy un Componente XD" />
+          <Componente msg="CLASE 4 - Hola soy un Componente XD" />
           <hr />
           <Propiedades
             cadena="String"
@@ -46,6 +49,17 @@ function App() {
           <RenderizadoCondicional />
           <hr />
           <RenderizadoElementos />
+          <hr />
+          <h1>CLASE 9, 10 Y 11 EVENTOS</h1>
+          <EventosES6 />
+          <hr />
+          <EventosES7 />
+          <hr />
+          <MasSobreEventos />
+          <hr />
+          <Padre />
+          <hr />
+          <CicloVida />
         </section>
       </header>
     </div>

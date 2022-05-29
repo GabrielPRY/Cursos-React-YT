@@ -21,7 +21,7 @@ export default function Propiedades(props) {
 
 ///propiedad por defecto
 Propiedades.defaultProps = {
-  porDefecto: "Props por defecto",
+  porDefecto: "CLASE 5 Props por defecto",
 };
 
 //Solo debe ser numerico y requerido si o si
