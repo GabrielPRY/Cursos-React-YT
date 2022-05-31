@@ -9,6 +9,11 @@ import RenderizadoElementos from "./components/RendereizadoElementos";
 import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos";
 import Padre from "./components/ComunicacionComponentes";
 import CicloVida from "./components/CicloVida";
+import AJAXApis from "./components/AJAXApis";
+import ContadorHooks from "./components/ContadorHooks";
+import ScrollHooks from "./components/ScrollHooks";
+import RelojHooks from "./components/RelojHooks";
+import AJAXHooks from "./components/AJAXHooks";
 
 function App() {
   return (
@@ -60,6 +65,16 @@ function App() {
           <Padre />
           <hr />
           <CicloVida />
+          <hr />
+          <AJAXApis />
+          <hr />
+          <ContadorHooks titulo="follow" />
+          <hr />
+          <ScrollHooks />
+          <hr />
+          <RelojHooks />
+          <hr />
+          <AJAXHooks />
         </section>
       </header>
     </div>
