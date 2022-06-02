@@ -15,6 +15,8 @@ import ScrollHooks from "./components/ScrollHooks";
 import RelojHooks from "./components/RelojHooks";
 import AJAXHooks from "./components/AJAXHooks";
 import HooksPersonalizados from "./components/HooksPersonalizados";
+import Referencias from "./components/Referencias";
+import Formularios from "./components/Formularios";
 
 function App() {
   return (
@@ -67,7 +69,7 @@ function App() {
           <hr />
           <CicloVida />
           <hr />
-          <AJAXApis />
+          {/* <AJAXApis /> */}
           <hr />
           <ContadorHooks titulo="follow" />
           <hr />
@@ -75,9 +77,13 @@ function App() {
           <hr />
           <RelojHooks />
           <hr />
-          <AJAXHooks />
+          {/* <AJAXHooks /> */}
           <hr />
           <HooksPersonalizados />
+          <hr />
+          <Referencias />
+          <hr></hr>
+          <Formularios />
         </section>
       </header>
     </div>
